@@ -1,0 +1,212 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c0a29c;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.containerCalendar {
+    padding: 40px;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    gap: 2px;
+}
+
+button {
+  background-color: #6f605d;
+  border-radius: 6px;
+  height: 30px;
+  width: 30px;
+}
+
+button:hover{
+  background-color:#5e524f;
+}
+
+a.button {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  border: 1px outset buttonborder;
+  border-radius: 5px;
+  color: #473f3d;
+  background-color:#a9847c;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  flex:0 0 10%;
+  max-height: 40px;
+  white-space:nowrap;
+  
+}
+
+a.button:hover{
+  background-color:#8e6f68;
+}
+
+.day {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: #6f605d;
+    border-radius: 4px;
+    transition: all 200ms;
+}
+
+.day:hover {
+    background-color: #5e524f;
+}
+
+  #logo {
+    height: 200px;
+    background-image: url(yogaBeach.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0;
+    background-color: #c0a29c;
+  }
+
+  h2 {
+    font-family: cursive;
+    color: #f2f2f2;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  h3 {
+    font-family: cursive;
+    color: #f2f2f2;
+    margin-bottom: 10px;
+  }
+  h6 {
+    font-family: cursive;
+    color: #c0a29c;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  .event {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  p {
+    font-family: cursive;
+    color:#c0a29c;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  img {
+    width: 200px;
+    border: 10px;
+    margin-top: 20px;
+  }
+  
+  #meny {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #f2f2f2;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c0a29c;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  footer {
+    background-color: #c0a29c;
+    height: 90px;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  @media (min-width: 888px) {
+    #logo {
+      height: 200px;
+    }
+    .event  {
+      flex-direction: row;
+    }
+    .retreat {
+      flex-direction: row;
+    }
+    .containerCalendar {
+        padding: 40px;
+        margin: 0 auto;
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+      width: 100%;
+      max-width: 400px;
+    }
+    a:link {
+      font-size: 1.2rem;
+      height: 50px;
+      font-family: cursive;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+    h2 {
+      margin-left: 60px;
+    }
+  }
+  @media (min-width: 888px) {
+    #logo {
+      height: 500px;
+    }
+    .containerCalendar {
+        padding: 40px;
+        margin: 0 auto;
+        width: 50px;
+    }
+  }
+  @media (min-width: 464px) {
+    p {
+      font-size: 1rem;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+    .containerCalendar {
+        padding: 40px;
+        margin: 0 auto;
+        width: 20px;
+    }
+  }
+  

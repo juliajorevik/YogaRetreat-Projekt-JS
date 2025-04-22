@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color:#c0a29c;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    background-color:#c0a29c;
+  }
+  #logo {
+    height: 200px;
+    background-image: url(yogaBeach.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0;
+    background-color: #c0a29c;
+  }
+  h1 {
+    font-family: cursive;
+    color: #f2f2f2;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1,5rem;
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-family: cursive;
+    color:#433b39;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-family: cursive;
+    color:#433b39;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  h6 {
+    font-family: cursive;
+    color: #c0a29c;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  .retreat {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .tea {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    max-width: 500px;
+  }
+
+  #description {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px;
+  }
+
+  button {
+    padding: 8px;
+    text-align: center;
+    border: 1px outset buttonborder;
+    border-radius: 10px;
+    color:000;
+    background-color:#a9847c;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    flex:0 0 10%;
+    max-height: 40px;
+  }
+
+  button:hover{
+    background-color:#8e6f68;
+  }
+
+  p {
+    font-family: cursive;
+    color:#433b39;
+    font-size: 0.8rem;
+    align-items: center;
+    max-width: 800px;
+  }
+  img {
+    width: 200px;
+    border: 10px;
+    margin-top: 20px;
+  }
+  
+  #meny {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #f2f2f2;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c0a29c;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  a.button {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px outset buttonborder;
+    border-radius: 5px;
+    color:#473f3d;
+    background-color:#a9847c;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    flex:0 0 10%;
+    max-height: 40px;
+  }
+
+  a.button:hover{
+    background-color:#8e6f68;
+  }
+  
+  .text-section {
+    text-align: left;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+
+  footer {
+    background-color: #c0a29c;
+    height: 90px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  @media (min-width: 888px) {
+    #logo {
+      height: 200px;
+    }
+    .retreat {
+      flex-direction: row;
+    }
+    img {
+      width: 100%;
+      max-width: 400px;
+    }
+    a:link {
+      font-size: 1.2rem;
+      height: 50px;
+    }
+    .text-section {
+      text-align: left;
+      align-items: center;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    p {
+      font-size: 1rem;
+    }
+    h2 {
+      margin-left: 60px;
+    }
+  }
+  @media (min-width: 888px) {
+    #logo {
+      height: 500px;
+    }
+  }
+  @media (min-width: 464px) {
+    p {
+      font-size: 1rem;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+    h2 {
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+    .text-section {
+      text-align: left;
+      align-items: center;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  
